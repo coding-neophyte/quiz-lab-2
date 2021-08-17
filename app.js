@@ -1,9 +1,8 @@
 
-import { countAsYes } from "./utils.js";
+import { countAsYes } from './utils.js';
 //import { alert } from "./utils.js";
 const takeQuiz = document.getElementById('quiz-button');
 const results = document.getElementById('quiz-results');
-const resetQuiz = document.getElementById('reset');
 
 
 takeQuiz.addEventListener('click', () => {
@@ -20,12 +19,7 @@ takeQuiz.addEventListener('click', () => {
     }
 
     const answer1 = prompt('Does lebron play for the lakers?');
-    /* if (answer1.charAt(0) === 'y') {
-       alert('Correct!');
-       numberCorrect++;
-     } else {
-       alert('Incorrect');
-     }*/
+
     console.log(countAsYes(answer1));
     const answer1Result = countAsYes(answer1);
     alert(answer1Result);
@@ -53,10 +47,5 @@ takeQuiz.addEventListener('click', () => {
         console.log(numberCorrect);
     }
     results.textContent = `${firstName} ${lastName} you got ${numberCorrect}/3 correct`;
-
-});
-
-
-resetQuiz.addEventListener('click', () => {
 
 });
