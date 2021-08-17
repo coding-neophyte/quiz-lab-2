@@ -19,6 +19,8 @@ body {
     --footer-height: 25px;
 
     font-family: 'Titillium Web', sans-serif;
+    background-image: url(https://wallpapercave.com/wp/wp6721670.jpg);
+    color: white;
 
 }
 
@@ -114,9 +116,47 @@ footer {
 
   #italic {
       font-style: italic;
+      color: black;
   }
 
   #quiz-results{
       font-size: 25px;
       font-weight: bold;
   }
+
+  #quiz-button{
+      height: 45px;
+      width: 105px;
+      border-color: red;
+      border-radius: 15px;
+  }
+
+  #quiz-button:hover{
+      transform: scale(2);
+      color: red;
+  }
+
+  p{
+      background-color: black;
+      opacity: 0.8;
+  }
+
+  h1{
+      color:black;
+      font-size: 65px;
+      text-decoration: underline;
+  }
+
+  h2 {
+      color: black;
+      text-decoration: underline;
+  }
+
+  #high-school{
+      background-color: black;
+      color: white;
+  }
+.li{
+    font-size: 20px;
+    font-weight: bold;
+}
